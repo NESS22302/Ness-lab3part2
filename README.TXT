@@ -31,9 +31,11 @@ new ClockDisplay()
 Call its getTime method to find out the initial time the clock has been set to.
 Can you work out why it starts at that particular time?
 
+it starts at this particulas time because the private int limit i 24 because of their being 24 hours in a day so it goes up by 1 minute.******
 
-
-
+22. Open an inspector for this object. With the inspector open, call the object’s methods. Watch the
+displayString field in the inspector. Read the project comment (by double-clicking the text icon in the
+class diagram) for more information.
 
 
 
