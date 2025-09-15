@@ -119,22 +119,10 @@ for anything that is not zero m, all possible results are integers whose absolut
 easy as it might at first seem. In a 12-hour clock, the hours after midnight and after noon are not shown
 as 00:30, but as 12:30. Thus, the minute display shows values from 0 to 59, while the hour display shows
 values from 1 to 12!
-=======
-it starts at this particulas time because the private int limit i 24 because of their being 24 hours in a day so it goes up by 1 minute.******
->>>>>>> 511944d09d792550aa77d6ea282720fe91eb01b4
 
-<<<<<<< HEAD
 
 
 37. There are (at least) two ways in which you can make a 12-hour clock. One possibility is to just store hour
 values from 1 to 12. On the other hand, you can simply leave the clock to work internally as a 24-hour
 clock but change the display string of the clock display to show 4:23 or 4.23pm when the internal value
 is 16:23. Implement both versions. Which option is easier? Which is better? Why?
-=======
-22. Open an inspector for this object. With the inspector open, call the object’s methods. Watch the
-displayString field in the inspector. Read the project comment (by double-clicking the text icon in the
-class diagram) for more information.
-
->>>>>>> 511944d09d792550aa77d6ea282720fe91eb01b4
-
-
